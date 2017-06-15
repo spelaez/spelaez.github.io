@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Port Lligat Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.home-wrapper {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ),url('../img/background.jpg') no-repeat center top;
+  background-size: cover;
+  color: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.7);
+  height: 20%
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #BDBDBD;
+  box-shadow: 2px 2px #424242;
+  display: block;
+}
+
+header img, header nav {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: background ease 0.5s;
+}
+
+header nav a.active {
+  background: #2E64FE;
+}
+
+header nav a:hover {
+  background: #2E64FE;
+}
+
+.logo {
+  display: inline-block;
+  width: 22%;
+  padding: 5px;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+  height: 100%;
+}
+
+#me {
+  text-align: center;
+  padding: 200px 0 150px;
+}
+
+#me h1 {
+  font-size: 68px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+#me p {
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+#perfil {
+  background-color: #2E64AA;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
+  font-size: 35px;
+  color: white;
+}
+
+#portafolio {
+  background-color: #A4A4A4;
+}
+
+.project {
+  width: 31%;
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+
+.project img {
+  width: 100px;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
