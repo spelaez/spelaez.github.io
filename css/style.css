@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: black;
   font-family: 'Port Lligat Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6;
@@ -49,7 +50,7 @@ header nav a:hover {
   background: #2E64FE;
 }
 
- .menu{
+.menu{
   display: inline-block;
   float: right;
   height: 100%;
@@ -88,18 +89,86 @@ header nav a:hover {
 .project {
   width: 31%;
   margin: 10px;
-  padding: 5px;
   display: inline-block;
   text-align: center;
   color: white;
 }
 
 .project img {
-  width: 100px;
-  height: 200px;
+  width: 115px;
+  height: 236px;
 }
 
 footer {
   text-align: center;
   font-size: 14px;
+}
+
+#contacto {
+  background-color: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#contacto {
+  background-color: #303030;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#contacto h2 {
+  color: white;
+}
+
+#contacto input {
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+#contacto textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contacto button{
+  background-color: #2E64AA;
+  padding: 20px 40px;
+  border-color: #4b84ce;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+footer {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ),url('../img/background.jpg') no-repeat center top;
+  background-size: cover;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.container {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
 }
